@@ -37,6 +37,14 @@
             color: #eee;
         }
 
+        #navbar a:active {
+            background-color: #c9af98;
+        }
+
+        #subtitle {
+            font-family: Comic Sans MS, Comic Sans, cursive;
+        }
+
         .container {
             max-width: 800px;
             margin: 80px auto;
@@ -61,44 +69,105 @@
             font-family: Comic Sans MS, Comic Sans, cursive;
             color: #845007;
         }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .skill {
+            width: 33%;
+            text-align: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .skill h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .skill ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skill li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
 <body>
     <div id="navbar">
-        <h3>Jiayi Lu</h3>
+        <a href="index.html">
+            <h3>Jiayi Lu</h3>
+        </a>
         <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="about.html" class="active">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
         </nav>
     </div>
 
     <div class="container">
         <h1>Welcome to my Personal Site</h1>
-        <p>Learn more about me, my projects and how to get in touch</p>
-        <p>Your website should look equally as good when on a mobile phone or desktop computer. Some considerations:
-            You may need to modify your navbar so that it shows as much space as possible.
-            All content should be equally accessible whether a user is on desktop or mobile
-            Text, images and other content should shrink and grow so that it is easier to see
-            Idea: it might be a good idea to move the navbar (say from the side to the bottom of the screen) when the
-            user is in mobile or browser view.
-            Use of the certain HTML ComponentsYour website should look equally as good when on a mobile phone or desktop
-            computer. Some considerations:
-            You may need to modify your navbar so that it shows as much space as possible.
-            All content should be equally accessible whether a user is on desktop or mobile
-            Text, images and other content should shrink and grow so that it is easier to see
-            Idea: it might be a good idea to move the navbar (say from the side to the bottom of the screen) when the
-            user is in mobile or browser view.
-            Use of the certain HTML Components
-            Your website should look equally as good when on a mobile phone or desktop computer. Some considerations:
-            You may need to modify your navbar so that it shows as much space as possible.
-            All content should be equally accessible whether a user is on desktop or mobile
-            Text, images and other content should shrink and grow so that it is easier to see
-            Idea: it might be a good idea to move the navbar (say from the side to the bottom of the screen) when the
-            user is in mobile or browser view.
-            Use of the certain HTML Components
-        </p>
+        <p id="subtitle">Learn more about me, my projects and how to get in touch~</p>
+        <img src="https://img.58tg.com/up/allimg/tx19/280320311714514.jpg">
+        <div class="intro">
+            <p>Hi! </p>
+            <p>I am Joyce, a future software engineer, a rookie game developer, and a HCI enthusiast!</p>
+            <p>I am a graduate student now studying computer science at Northeastern University and actively seeking for
+                SDE Internship/CO-OP in 2023.</p>
+            <p>I have hands-on experiences on both software development, game development, AR/VR development and UX/UI
+                design.</p>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <h2>Front-End</h2>
+                <ul>
+                    <li>Languages: JavaScript, HTML5, CSS3.</li>
+                    <li>Frameworks/Libraries: React, Redux, JQuery, Bootstrap, Material-UI, Chart.js.</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2>Back-End</h2>
+                <ul>
+                    <li>Languages: JavaScript, Python, Java.</li>
+                    <li>Frameworks/Libraries: Node.js, Express.js, Flask, SpringBoot, JSP.</li>
+                    <li>Tools: npm, yarn.</li>
+                    <li>Databases: MongoDB, MySQL.</li>
+                    <li>API Design: RESTful.</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2>Other</h2>
+                <ul>
+                    <li>UI/UX Design: Adobe Xd, Axure8.</li>
+                    <li>Game Development: Unity3D, C#, Lua.</li>
+                    <li>AR/VR Development: Unity3D, Len Studio, C#.</li>
+                    <li>Version control: Git, Github, Gitlab.</li>
+                    <li>Methodologies: Agile, Waterfall.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 
