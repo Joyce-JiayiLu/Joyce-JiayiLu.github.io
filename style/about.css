@@ -1,3 +1,36 @@
 #aboutpage {
     font-weight: bolder;
 }
+
+
+.divide {
+  color: #3a4660;
+  border: 0;
+  padding-top: 1px;
+  background: linear-gradient(to right, transparent, #d0d0d5bb, transparent);
+  margin-bottom: 80px;
+}
+
+.blog-content{
+  text-align: left;
+}
+
+h2 {
+
+  font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #3a4660;
+}
+
+.travel-pic {
+  width: 500px;
+  height: 350px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .travel-pic {
+    max-width: 100%;
+  }
+}

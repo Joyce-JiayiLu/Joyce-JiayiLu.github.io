@@ -60,16 +60,16 @@ body {
 .container {
     max-width: 800px;
     margin: 80px auto;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
-h1 {
+/* h1 {
     font-size: 50px;
     margin-bottom: 20px;
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: #3a4660;
-}
+} */
 
 p {
     font-size: 18px;
